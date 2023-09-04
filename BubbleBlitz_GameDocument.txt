@@ -1,0 +1,50 @@
+Game Name: BubbleBlitz: Smash and Sort
+
+
+Objective:
+The objective of the game is to smash the bubbles that appear on the screen by clicking on them. Each bubble has a number inside it, and the player needs to click on the bubble with the same number as shown in the "Smash" section. The player earns points for each successful smash and can increase their score by forming combos.
+
+
+Game Elements:
+Smash: This section displays the number that the player needs to smash. The number changes randomly after each successful smash.
+Clocker: This section displays the remaining time in seconds. The player needs to smash as many bubbles as possible within the given time limit.
+Score: This section displays the player's current score. The score increases with each successful smash.
+Combo: This section displays the current combo count. The combo count increases with consecutive successful smashes and adds bonus points to the score.
+Bonus: This section displays the bonus points earned from the combo count.
+
+
+Game Mechanics:
+The player starts with a clocker value of 60 seconds.
+Bubbles with random numbers appear on the screen.
+The player needs to click on the bubble with the same number as shown in the "Smash" section.
+If the player clicks on the correct bubble, their score increases, and a new bubble set is generated.
+If the player clicks on the wrong bubble, their combo count and bonus points reset.
+The player can form combos by consecutively smashing the correct bubbles. Each combo increases the bonus points earned.
+The game ends when the clocker reaches 0 seconds.
+After the game ends, a "Thank you" message is displayed along with the name of the game creator.
+
+
+HTML Structure:
+The game interface consists of a main container with a panel inside it. The panel contains the following elements:
+ptop: This section contains the Smash, Clocker, Score, Combo, and Bonus elements.
+pbtm: This section is dynamically populated with bubbles.
+
+
+CSS Styling:
+The CSS file contains styling rules to position and style the game elements. It sets the background image, colors, fonts, and dimensions of the game interface.
+
+
+JavaScript Functionality:
+The JavaScript file contains the following functions:
+increaseScore(): Increases the player's score when a bubble is successfully smashed.
+getNewSmash(): Generates a new random number for the "Smash" section.
+makeBubble(): Dynamically generates bubbles with random numbers and adds them to the "pbtm" section.
+generateSpecialBubble(): Generates a special bubble with unique properties (e.g., gold or rainbow).
+increaseScoreWithCombo(): Increases the player's score and combo count when consecutive successful smashes occur.
+resetCombo(): Resets the combo count and bonus points when a wrong bubble is clicked.
+Event Listener: Listens for click events on the "pbtm" section and checks if the clicked bubble matches the number in the "Smash" section.
+runclocker(): Starts the countdown timer and updates the clocker value.
+Initial Setup: Calls the necessary functions to set up the game interface and start the game.
+
+
+Thank you for playing BubbleBlitz! Made By: Nehal Pal - 20BCG10070
