@@ -1,1 +1,2 @@
-# Bubble_blitz
+"Bubble Blitz: Sort and Smash"
+Description: Get ready for a fast-paced sorting frenzy in Bubble Blitz! Immerse yourself in a vibrant world of bubbles and numbers, where your goal is to smash the bubbles in the correct order. As you pop the bubbles, watch the captivating event bubbling animation unfold before your eyes. Sharpen your sorting skills and race against the clock to achieve the highest score. Can you handle the pressure and become the ultimate bubble sorting champion?
